@@ -1,2 +1,14 @@
-# golang_devops_task
-This is a sample repo that has a golang application that requires access to a PostgreSQL database and a messaging queue
+# Golang Internet Clipboard
+
+A remake of the popular internet clipboard in Go. 
+
+## Quick Specs
+
+1. Migrations are handled by goose
+2. Routing is handled by Gin
+3. HTML templates are served from the ./templates directory
+
+## Contributing
+
+Erm...
+
