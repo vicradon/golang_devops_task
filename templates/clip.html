@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Save Content</title>
+</head>
+
+<body>
+    <h1>Save Content</h1>
+    <form action="/{{ .url }}" method="post">
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" rows="10" cols="30"></textarea>
+        <label for="delete_after">Delete After:</label>
+        <select id="delete_after" name="delete_after">
+            <option value="once_viewed">Once Viewed</option>
+            <option value="1_minute">1 Minute</option>
+            <option value="1_hour">1 Hour</option>
+            <option value="1_day">1 Day</option>
+        </select>
+        <button type="submit">Save</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Internet Clipboard</title>
+</head>
+
+<body>
+    <h1>Welcome to the Internet Clipboard</h1>
+    <p>This application allows you to save and retrieve text content using custom URLs.</p>
+    <p>To save content:</p>
+    <ul>
+        <li>Send a POST request to <code>/api/&lt;your-custom-url&gt;</code> with the content in the request body.</li>
+    </ul>
+    <p>To retrieve content:</p>
+    <ul>
+        <li>Send a GET request to <code>/api/&lt;your-custom-url&gt;</code> to get and delete the content.</li>
+    </ul>
+    <p>Alternatively, you can use the form available at <code>/&lt;your-custom-url&gt;</code> to save or retrieve
+        content via the browser.</p>
+</body>
+
+</html>
